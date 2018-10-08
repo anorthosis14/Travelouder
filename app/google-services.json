@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1021488166447",
+    "firebase_url": "https://travelouder-293a1.firebaseio.com",
+    "project_id": "travelouder-293a1",
+    "storage_bucket": "travelouder-293a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021488166447:android:5f102058266d7cd9",
+        "android_client_info": {
+          "package_name": "travelouder.com.travelouder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021488166447-pi312qv5u0ecu192fdhjvckko1e2h8v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "travelouder.com.travelouder",
+            "certificate_hash": "eb61edbc8e8894f5a09441a1d02c6ad28950d2e5"
+          }
+        },
+        {
+          "client_id": "1021488166447-1ju6ev21m7685qkgdksl01pmrhl02b40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnuukBhJD-STOesE8r_PUyL5XEJqA1ya4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021488166447-1ju6ev21m7685qkgdksl01pmrhl02b40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

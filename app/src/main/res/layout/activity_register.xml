@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#2e3237"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/etFullname"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b4148"
+        android:hint="@string/fullname"
+        android:inputType="textEmailAddress"
+        android:textColor="#888888"
+        android:textColorHint="#5e6266" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b4148"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:textColor="#888888"
+        android:textColorHint="#5e6266"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3b4148"
+        android:hint="@string/hint_pass"
+        android:inputType="textPassword"
+        android:textColor="#888888"
+        android:textColorHint="#5e6266"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26ae90"
+        android:text="@string/register_btn"
+        android:textColor="#ffff"/>
+
+    <Button
+        android:id="@+id/verify_email_button"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#26ae90"
+        android:textColor="#ffff"
+        android:visibility="invisible"
+        android:text= "@string/verify_btn"/>
+
+    <Button
+        android:id="@+id/btnLnkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/lgn_link_btn"
+        android:textAllCaps="false"
+        android:textColor="#ffff"/>
+
+
+</LinearLayout>

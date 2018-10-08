@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#428bca"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/etEmail"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:hint="@string/hint_pass"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eceef1"
+        android:text="@string/login_btn"
+        android:textColor="#428bca"/>
+    <TextView
+        android:id="@+id/status"
+        style="@style/ThemeOverlay.MyTextDetail"
+        android:text="@string/signed_out" />
+
+    <Button
+        android:id="@+id/btnReg"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/reg_btn"
+        android:textAllCaps="false"
+        android:textColor="#ffff"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+    <Button
+        android:id="@+id/sign_out_button"
+        style="@style/inputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eceef1"
+        android:text="@string/sign_out"
+        android:textColor="#428bca"/>
+
+
+</LinearLayout>

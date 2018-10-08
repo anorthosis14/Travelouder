@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/imageViewPost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:background="#a4a4a4"/>
+    <ProgressBar
+        android:id="@+id/pbLoadingImage"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvCaption"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:background="@color/caption_background"
+        android:textColor="@color/caption_text"
+        android:layout_gravity="bottom"
+        android:gravity="start"
+        android:padding="4dp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/likeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:onClick="onLikeClick"
+        app:fabSize="mini"
+        android:layout_margin="16dp"
+        android:src="@drawable/baseline_thumb_up_white_48"/>
+</FrameLayout>
